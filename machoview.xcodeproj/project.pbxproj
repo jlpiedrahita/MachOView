@@ -10,11 +10,8 @@
 		256AC3DA0F4B6AC300CF3369 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* AppController.mm */; };
 		3C0ADEB0169CD42600DA428E /* README in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3CE90DFC11F6107600543402 /* README */; };
 		3C0F958411F6589D0070A2FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F957E11F6589D0070A2FE /* InfoPlist.strings */; };
-		3C0F958511F6589D0070A2FE /* Layout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F958011F6589D0070A2FE /* Layout.xib */; };
+		3C0F958511F6589D0070A2FE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F958011F6589D0070A2FE /* MainWindow.xib */; };
 		3C0F958611F6589D0070A2FE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F958211F6589D0070A2FE /* MainMenu.xib */; };
-		3C0F958911F658BF0070A2FE /* greenApple.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F958711F658BF0070A2FE /* greenApple.icns */; };
-		3C0F958A11F658BF0070A2FE /* redApple.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3C0F958811F658BF0070A2FE /* redApple.icns */; };
-		3C1163F113D5B88D007B4A6E /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1163F013D5B88D007B4A6E /* stop.png */; };
 		3C34A82B14892FF1005B53F6 /* FatLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A82A14892FF1005B53F6 /* FatLayout.mm */; };
 		3C3EC88F13B66E8900ECCDB2 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C3EC88D13B66E8900ECCDB2 /* Preferences.xib */; };
 		3C46C7D91687C6ED00212190 /* PreferenceController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C46C7D81687C6ED00212190 /* PreferenceController.mm */; };
@@ -60,6 +57,7 @@
 		7B7828EE1A1E017B00AE03DB /* MCRegisterInfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B7828BA1A1E017B00AE03DB /* MCRegisterInfo.c */; };
 		7B7828EF1A1E017B00AE03DB /* SStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B7828BC1A1E017B00AE03DB /* SStream.c */; };
 		7B7828F01A1E017B00AE03DB /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B7828BE1A1E017B00AE03DB /* utils.c */; };
+		82D44F901ABF0C0700039501 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82D44F8F1ABF0C0700039501 /* Icon.icns */; };
 		8D11072D0486CEB800E47090 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.mm */; settings = {ATTRIBUTES = (); }; };
 /* End PBXBuildFile section */
 
@@ -85,11 +83,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		3C0F957F11F6589D0070A2FE /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3C0F958111F6589D0070A2FE /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Layout.xib; sourceTree = "<group>"; };
+		3C0F958111F6589D0070A2FE /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		3C0F958311F6589D0070A2FE /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		3C0F958711F658BF0070A2FE /* greenApple.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = greenApple.icns; sourceTree = "<group>"; };
-		3C0F958811F658BF0070A2FE /* redApple.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = redApple.icns; sourceTree = "<group>"; };
-		3C1163F013D5B88D007B4A6E /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 		3C30845A11FDAF6F008A270F /* createdmg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = createdmg; sourceTree = "<group>"; };
 		3C34A82914892FF1005B53F6 /* FatLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatLayout.h; sourceTree = "<group>"; };
 		3C34A82A14892FF1005B53F6 /* FatLayout.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FatLayout.mm; sourceTree = "<group>"; };
@@ -209,6 +204,7 @@
 		7B7828BD1A1E017B00AE03DB /* SStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SStream.h; sourceTree = "<group>"; };
 		7B7828BE1A1E017B00AE03DB /* utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
 		7B7828BF1A1E017B00AE03DB /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		82D44F8F1ABF0C0700039501 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,12 +319,10 @@
 			children = (
 				3C46C8491687DEE600212190 /* Credits.rtf */,
 				3CCB9FDF11F6DC2000F57CAA /* Info.plist */,
-				3C0F958811F658BF0070A2FE /* redApple.icns */,
-				3C0F958711F658BF0070A2FE /* greenApple.icns */,
-				3C1163F013D5B88D007B4A6E /* stop.png */,
+				82D44F8F1ABF0C0700039501 /* Icon.icns */,
 				3C0F957E11F6589D0070A2FE /* InfoPlist.strings */,
 				3C0F958211F6589D0070A2FE /* MainMenu.xib */,
-				3C0F958011F6589D0070A2FE /* Layout.xib */,
+				3C0F958011F6589D0070A2FE /* MainWindow.xib */,
 				3C3EC88D13B66E8900ECCDB2 /* Preferences.xib */,
 			);
 			name = Resources;
@@ -527,7 +521,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0620;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "machoview" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -554,12 +548,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0F958411F6589D0070A2FE /* InfoPlist.strings in Resources */,
-				3C0F958511F6589D0070A2FE /* Layout.xib in Resources */,
+				3C0F958511F6589D0070A2FE /* MainWindow.xib in Resources */,
 				3C0F958611F6589D0070A2FE /* MainMenu.xib in Resources */,
-				3C0F958911F658BF0070A2FE /* greenApple.icns in Resources */,
-				3C0F958A11F658BF0070A2FE /* redApple.icns in Resources */,
 				3C3EC88F13B66E8900ECCDB2 /* Preferences.xib in Resources */,
-				3C1163F113D5B88D007B4A6E /* stop.png in Resources */,
+				82D44F901ABF0C0700039501 /* Icon.icns in Resources */,
 				3C46C84B1687DEE600212190 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,12 +638,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3C0F958011F6589D0070A2FE /* Layout.xib */ = {
+		3C0F958011F6589D0070A2FE /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3C0F958111F6589D0070A2FE /* English */,
 			);
-			name = Layout.xib;
+			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 		3C0F958211F6589D0070A2FE /* MainMenu.xib */ = {
@@ -685,7 +677,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_TEMP_DIR = "$(inherited)";
@@ -726,7 +717,7 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = MachOView;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "$(inherited)";
 				VERSIONING_SYSTEM = "";
@@ -737,7 +728,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_TEMP_DIR = "$(inherited)";
@@ -781,7 +771,7 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = MachOView;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "$(inherited)";
@@ -792,7 +782,6 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -807,6 +796,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = MachOView;
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -817,7 +807,6 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				CODE_SIGN_IDENTITY = "";

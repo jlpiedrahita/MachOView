@@ -379,7 +379,7 @@ enum ViewType
 - (NSString *)windowNibName 
 {
   // Implement this to return a nib to load OR implement -makeWindowControllers to manually create your controllers.
-  return @"Layout";
+  return @"MainWindow";
 }
 
 //----------------------------------------------------------------------------

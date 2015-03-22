@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
     <dependencies>
-        <deployment defaultVersion="1070" identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6751"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MVPreferenceController">
@@ -12,18 +12,18 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <userDefaultsController id="3"/>
         <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" showsToolbarButton="NO" animationBehavior="default" id="23" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
-            <rect key="contentRect" x="167" y="107" width="474" height="241"/>
+            <rect key="contentRect" x="167" y="107" width="268" height="88"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1028"/>
             <view key="contentView" id="24">
-                <rect key="frame" x="0.0" y="0.0" width="474" height="241"/>
+                <rect key="frame" x="0.0" y="-1" width="268" height="88"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button id="iE9-IS-2YW">
-                        <rect key="frame" x="18" y="188" width="232" height="18"/>
+                        <rect key="frame" x="18" y="35" width="232" height="18"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="check" title="Display open file menu at startup" bezelStyle="regularSquare" imagePosition="left" inset="2" id="rIK-aD-7Yv">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -39,6 +39,7 @@
             <connections>
                 <outlet property="delegate" destination="3" id="74"/>
             </connections>
+            <point key="canvasLocation" x="377" y="243"/>
         </window>
         <userDefaultsController id="75"/>
     </objects>

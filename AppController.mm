@@ -80,7 +80,7 @@ int64_t nrow_loaded; // number of loaded rows
                                      otherButton:nil
                        informativeTextWithFormat:@""];
   
-  NSTextField *input = [[NSTextField alloc] initWithFrame:NSMakeRect(0, 0, 200, 24)];
+  NSTextField *input = [[NSTextField alloc] initWithFrame:NSMakeRect(0, 0, 295, 24)];
   [input setStringValue:@""];
   [alert setAccessoryView:input];
   NSInteger button = [alert runModal];
