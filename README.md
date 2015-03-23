@@ -10,6 +10,10 @@ This revamped version includes a new sleek design and modern OS X features like 
 
 <p align="center"><img src="http://i.imgur.com/ZIiiBI0.png"></p>
 
+## Downloads
+
+* [Latest](https://github.com/jlpiedrahita/MachOView/releases)
+
 ## Requeriments
 
 * Mac OS X 10.7 and later
